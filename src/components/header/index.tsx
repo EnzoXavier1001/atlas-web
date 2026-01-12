@@ -11,7 +11,7 @@ import logoImg from "../../assets/logo.png";
 export function Header() {
 	return (
 		<header className="border-b border-b-gray-200 bg-white">
-			<div className="max-w-[1480px] mx-auto flex items-center justify-between py-4 px-4 lg:px-0">
+			<div className="max-w-[1280px] mx-auto flex items-center justify-between py-4 px-4 lg:px-0">
 				<Link to="/">
 					<img src={logoImg} alt="Logo" className="w-40" />
 				</Link>
@@ -27,13 +27,13 @@ export function Header() {
 						to="/posts"
 						className="text-gray-700 hover:text-gray-900 font-medium"
 					>
-						Posts
+						Spaces
 					</Link>
 					<Link
 						to="/about"
 						className="text-gray-700 hover:text-gray-900 font-medium"
 					>
-						Sobre
+						Colaboradores
 					</Link>
 				</div>
 
@@ -77,6 +77,18 @@ export function Header() {
 								asChild
 							>
 								<Link to="/profile">Perfil</Link>
+							</DropdownMenuItem>
+							<DropdownMenuItem
+								className="px-3 py-2 rounded hover:bg-gray-100"
+								asChild
+							>
+								<Link to="/my-posts">Meu posts</Link>
+							</DropdownMenuItem>
+							<DropdownMenuItem
+								className="px-3 py-2 rounded hover:bg-gray-100"
+								asChild
+							>
+								<Link to="/settings">Configurações</Link>
 							</DropdownMenuItem>
 							<DropdownMenuItem className="px-3 py-2 rounded hover:bg-gray-100">
 								Sair
