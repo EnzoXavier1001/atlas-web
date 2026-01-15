@@ -1,5 +1,6 @@
 import { CalendarDays, Crown, Heart } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router";
 export function Card() {
 	const [likes, setLikes] = useState<number>(12);
 
@@ -43,9 +44,12 @@ export function Card() {
 			</header>
 
 			<main className="mt-4 space-y-2">
-				<h3 className="text-lg font-semibold text-gray-900 hover:underline cursor-pointer">
+				<Link
+					to="/post/1"
+					className="block text-lg font-semibold text-gray-900 hover:underline cursor-pointer"
+				>
 					Como organizar chamados de TI com eficiência
-				</h3>
+				</Link>
 
 				<p className="text-sm text-gray-600 line-clamp-2">
 					Um guia prático para estruturar o fluxo de atendimento, priorizar
