@@ -15,6 +15,7 @@
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-layout">Layout</a> • 
  <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
  <a href="#-instalação-e-uso">Instalação</a> • 
 </p>
@@ -29,9 +30,34 @@ Este projeto foi criado com o objetivo de servir como um espaço centralizado pa
 
 A aplicação permite organizar conteúdos por áreas, tornando o acesso às informações mais rápido e estruturado, além de incentivar a padronização de processos e a disseminação do conhecimento técnico e institucional.
 
+## 🖼️ Layout
+
+### 🔐 Tela de Login
 <p align="center">
   <img src="./src/assets/preview-sign-in.png">
 </p>
+
+---
+
+### 🏠 Tela Home
+<p align="center">
+  <img src="./src/assets/screen-home.png">
+</p>
+
+---
+
+### 📝 Tela de Posts
+<p align="center">
+  <img src="./src/assets/screen-post.jpeg">
+</p>
+
+---
+
+### 👤 Tela de Perfil
+<p align="center">
+  <img src="./src/assets/screen-profile.jpeg">
+</p>
+
 
 
 ## 🔨 Tecnologias utilizadas

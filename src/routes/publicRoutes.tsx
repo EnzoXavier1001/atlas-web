@@ -4,6 +4,7 @@ import { DefaultLayout } from "@/layouts/default";
 import { SignIn } from "@/pages/auth/sign-in";
 import { Home } from "@/pages/home";
 import { Post } from "@/pages/post";
+import { Profile } from "@/pages/profile";
 
 export const router = createBrowserRouter([
 	{
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
 			{
 				path: "/post/:id",
 				element: <Post />,
+			},
+			{
+				path: "/profile/:id",
+				element: <Profile />,
 			},
 		],
 	},
