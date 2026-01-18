@@ -33,7 +33,7 @@ A aplicação permite organizar conteúdos por áreas, tornando o acesso às inf
 ## 🖼️ Layout
 
 ### 🔐 Tela de Login
-<p align="center">
+<p align="center" id="-layout">
   <img src="./src/assets/preview-sign-in.png">
 </p>
 
